@@ -13,7 +13,9 @@ class ServiceProvider extends BaseServiceProvider {
      * @return void
      */
     public function boot()
-    {
+    {   
+        include __DIR__.'/routes.php';
+        
         $this->publishes([
             __DIR__ . '/../../config/calculator.php' => config_path('calculator.php'),
         ]);
