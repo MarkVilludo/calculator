@@ -1,27 +1,33 @@
 {
     "name": "mark-villudo/calculator",
-    "description": "This is demo package will do some calculations",
-    "keywords": ["package","package"],
-    "license": "MIT",
-    "homepage": "https://github.com/MarkVilludo/calculator",
+    "description": "Laravel package API for calculator",
+    "keywords": [
+        "laravel",
+        "api",
+        "calculator"
+    ],
     "authors": [
         {
-            "name": "Mark Villudo",
-            "email": "markanthony.villudo@gmail.com"
+            "name": "Mark Villudo"
         }
     ],
+    "require": {
+        "php": ">=7.0.0"
+    },
     "autoload": {
         "psr-0": {
-            "Devmark\\Calculator\\": "src/"
+            "MarkVilludo\\Calculator\\": "src/"
         }
     },
-   "extra": {
+    "extra": {
         "laravel": {
+            "providers": [
+                "MarkVilludo\\Calculator\\ServiceProvider"
+            ],
             "aliases": {
-                "calculator": "Devmark\\Calculator\\Facade"
+                "Calculator": "MarkVilludo\\Calculator\\Facade"
             }
         }
     },
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
