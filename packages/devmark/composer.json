@@ -1,6 +1,9 @@
 {
     "name": "mark/calculator",
     "description": "This is demo package will do some calculations",
+    "keywords": ["package","package"],
+    "license": "MIT",
+    "homepage": "https://github.com/MarkVilludo/calculator",
     "authors": [
         {
             "name": "Mark Villudo",
