@@ -10,6 +10,16 @@
             "email": "markanthony.villudo@gmail.com"
         }
     ],
+   "extra": {
+        "laravel": {
+            "providers": [
+                "MarkVilludo\\Calculator\\CalculatorServiceProvider"
+            ],
+            "aliases": {
+                "Hanap": "MarkVilludo\\Calculator\\Facade"
+            }
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
