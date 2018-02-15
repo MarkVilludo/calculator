@@ -17,6 +17,9 @@
     },
    "extra": {
         "laravel": {
+            "providers": [
+                "MarkVilludo\\Calculator\\CalculatorServiceProvider"
+            ],
             "aliases": {
                 "calculator": "MarkVilludo\\Calculator\\Facade"
             }
