@@ -1,0 +1,12 @@
+{
+    "name": "mark/calculator",
+    "description": "This is demo package will do some calculations",
+    "authors": [
+        {
+            "name": "Mark Villudo",
+            "email": "markanthony.villudo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
