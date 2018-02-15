@@ -17,9 +17,6 @@
     },
    "extra": {
         "laravel": {
-            "providers": [
-                "Devmark\\Calculator\\CalculatorServiceProvider"
-            ],
             "aliases": {
                 "calculator": "Devmark\\Calculator\\Facade"
             }
