@@ -18,10 +18,10 @@
    "extra": {
         "laravel": {
             "providers": [
-                "MarkVilludo\\Calculator\\Devmark\\Calculator\\Src\\CalculatorServiceProvider"
+                "Devmark\\Calculator\\CalculatorServiceProvider"
             ],
             "aliases": {
-                "calculator": "MarkVilludo\\Calculator\\Facade"
+                "calculator": "Devmark\\Calculator\\Facade"
             }
         }
     },
