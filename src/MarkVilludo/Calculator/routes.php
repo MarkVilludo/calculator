@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | calculator Routes
@@ -10,5 +9,5 @@
 */
 
 
-Route::get('/add/{a}/{b}','CalculatorController@add');
-Route::get('/subtract/{a}/{b}','CalculatorController@subtract');
+Route::get('/add/{a}/{b}','MarkVilludo\Calculator\Controllers\CalculatorController@add');
+Route::get('/subtract/{a}/{b}','MarkVilludo\Calculator\Controllers\CalculatorController@subtract');

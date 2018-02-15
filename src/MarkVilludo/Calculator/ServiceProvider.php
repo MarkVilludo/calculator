@@ -13,7 +13,9 @@ class ServiceProvider extends BaseServiceProvider {
      * @return void
      */
     public function boot()
-    {   
+    {      
+        $this->app->make('MarkVilludo\Calculator\Controllers\CalculatorController');
+
         include __DIR__.'/routes.php';
         
         $this->publishes([
