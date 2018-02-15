@@ -10,6 +10,21 @@
             "email": "markanthony.villudo@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-0": {
+            "Devmark\\Calculator\\": "src/"
+        }
+    },
+   "extra": {
+        "laravel": {
+            "providers": [
+                "Devmark\\Calculator\\CalculatorServiceProvider"
+            ],
+            "aliases": {
+                "calculator": "Devmark\\Calculator\\Facade"
+            }
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
